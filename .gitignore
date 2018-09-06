@@ -70,3 +70,5 @@ yarn-error.log
 .DS_Store
 
 .prettierrc
+
+.env
