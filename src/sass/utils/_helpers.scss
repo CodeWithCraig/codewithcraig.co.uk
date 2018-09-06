@@ -1,0 +1,20 @@
+.wrap {
+	@media(min-width: 900px) {
+		margin: 0 auto;
+		width: 900px;
+	}
+
+	@media(min-width: 1024px) {
+		width: 1024px;
+	}
+
+	&--xl {
+		@media(min-width: 1248px) {
+			width: 1248px;
+		}
+	}
+}
+
+.content {
+	padding: 1em;
+}
