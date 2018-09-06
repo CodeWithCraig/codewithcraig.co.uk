@@ -1,0 +1,16 @@
+.hero {
+	/*background-image: url(../../images/leaves.png);*/
+	height: 100vh;
+
+	img {
+		max-width: 200px;
+		position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+
+	  @media(min-width: 600px) {
+	  	max-width: 300px;
+	  }
+	}
+}
