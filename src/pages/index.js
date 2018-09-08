@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import { WOW } from 'wowjs';
 import Logo from '../images/logo.png';
 import Down from '../images/down.png';
 import Me from '../images/me.jpg';
@@ -8,7 +7,10 @@ import Code from '../images/code.png';
 
 export default class IndexPage extends React.Component {
   componentDidMount() {
-    new WOW().init();
+    try {
+      const WOW = require('wowjs').WOW;
+      new WOW().init();
+    } catch (e) {}
   }
 
   render() {
