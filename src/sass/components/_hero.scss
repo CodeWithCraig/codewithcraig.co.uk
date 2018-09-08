@@ -1,8 +1,28 @@
 .hero {
-	/*background-image: url(../../images/leaves.png);*/
-	height: 100vh;
+	@include display-flex;
+	
+	@media(min-width: 900px) {
+		min-height: 100vh;
+	}
 
-	img {
+	&--fixed {
+		min-height: 100vh;
+	}
+
+	&--green {
+		background-color: $color-hero-background-green;
+		color: $color-hero-color-green;
+	}
+
+	&__more {
+		position: absolute;
+		bottom: 0;
+		width: 40px;
+		left: 50%;
+		margin-left: -20px;
+	}
+
+	.logo {
 		max-width: 200px;
 		position: absolute;
 	  top: 50%;

@@ -1,7 +1,17 @@
-@import 
+@import
+	'../../node_modules/sass-flexbox/sass-flexbox',
+	'settings/mixins',
+	'settings/colours',
 	'utils/reset',
+	'utils/animate',
 	'utils/helpers',
+	'objects/grid',
+	'objects/island',
+	'components/button',
 	'components/header',
+	'components/circle',
 	'components/contact',
-	'components/hero'
+	'components/hero',
+	'components/services',
+	'components/about'
 ;

@@ -1,0 +1,30 @@
+.grid {
+	@include display-flex;
+	@include flex-direction-column;
+
+	&--reversed-on-mobile {
+		@include flex-direction-column-reverse;
+	}
+  
+  @media(min-width: 900px) {
+  	@include flex-direction-row;
+  }
+
+  &--two {
+  	.grid-item {
+  		@media(min-width: 900px) {
+  			width: 50%;
+  		}
+  	}
+  }
+
+  &--three {
+  	.grid-item {
+  		width: 33.333%;
+  	}
+  }
+}
+
+.grid-item {
+
+}

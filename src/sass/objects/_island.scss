@@ -1,0 +1,9 @@
+.island {
+	position: relative;
+}
+
+.island-item {
+	@include display-flex;
+	@include align-items-center;
+	@include justify-content-center;
+}
