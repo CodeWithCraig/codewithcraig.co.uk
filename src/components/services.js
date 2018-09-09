@@ -5,7 +5,7 @@ const Services = () => (
     <div className='island-item wrap'>
       <div className='services content'>
         <h1>Services</h1>
-        <p>If you're interested in working together on a website for your business, then let's definitely have a chat!</p>
+        <p>If you are interested in working together on a website for your business, then let's have a chat!</p>
         <div className='grid grid--three'>
           <div className="pricing wow animated pulse">
             <div className="pricing__item">
@@ -18,7 +18,7 @@ const Services = () => (
                 <li className="pricing__feature"><span className="icon icon--bubble"></span>Free in-hours support (9-5)</li>
               </ul>
               <p className='pricing__footnote'>* Price subject to consultation</p>
-              <a className="pricing__action button">Get in touch</a>
+              <a className="pricing__action button" href='mailto:code@craigharvie.me?subject=Basic plan'>Get in touch</a>
             </div>
             <div className="pricing__item pricing__item--featured">
               <h3 className="pricing__title">Standard</h3>
@@ -30,7 +30,7 @@ const Services = () => (
                 <li className="pricing__feature"><span className="icon icon--rocket"></span>Free in-hours support (9-5)</li>
               </ul>
               <p className='pricing__footnote'>* Monthly server costs not included</p>
-              <a className="pricing__action button">Get in touch</a>
+              <a className="pricing__action button" href='mailto:code@craigharvie.me?subject=Standard plan'>Get in touch</a>
             </div>
             <div className="pricing__item">
               <h3 className="pricing__title">Enterprise</h3>
@@ -42,7 +42,7 @@ const Services = () => (
                 <li className="pricing__feature"><span className="icon icon--rocket"></span>Free support</li>
               </ul>
               <p className='pricing__footnote'>* Price subject to consultation</p>
-              <a className="pricing__action button">Get in touch</a>
+              <a className="pricing__action button" href='mailto:code@craigharvie.me?subject=Enterprise plan'>Get in touch</a>
             </div>
           </div>
         </div>

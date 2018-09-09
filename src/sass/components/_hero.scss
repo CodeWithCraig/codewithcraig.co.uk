@@ -1,9 +1,5 @@
 .hero {
 	@include display-flex;
-
-	a {
-		color: $color-text;
-	}
 	
 	@media(min-width: 900px) {
 		min-height: 100vh;

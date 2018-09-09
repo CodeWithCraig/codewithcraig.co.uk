@@ -10,7 +10,7 @@ const About = () => (
             <h1>About me</h1>
             <p>Hello! I'm Craig.</p>
             <p>I live in Moffat, Scotland - working as a Senior Software Engineer for the <a href='https://bbc.co.uk'>BBC</a>.</p>
-            <p>I've been developing websites for more than 5 years now and can honestly say I love it more now than I ever have.</p>
+            <p>I have been developing websites for more than 5 years and the more I learn, the more I enjoy what I do.</p>
             <p><b>Code With Craig</b> was set up to help get more people from Dumfries & Galloway involved in Software Engineering (and hopefully discover some talented people to work with).</p>
             <p>
               <a className='button button--white' href='#tutoring'>Find out more</a>

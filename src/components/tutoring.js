@@ -13,9 +13,9 @@ const Tutoring = () => (
           </div>
           <div className='grid-item'>
             <h1>Tutoring</h1>
-            <p>Want to learn how to code? I'd love to teach you!</p>
-            <p>I've been mentoring junior developers for over 3 years which has given me a number of good techniques for teaching inexperienced programmers new weapons (I like to think of my skills as weapons..).</p>
-            <p>Here's what you can expect:</p>
+            <p>Want to learn how to code? I would love to teach you!</p>
+            <p>I have been mentoring junior developers for over 3 years and in that time I have developed a number of good techniques for teaching inexperienced programmers new weapons (I like to think of my skills as weapons..).</p>
+            <p>Here is what you can expect:</p>
             <ul>
               <li>
                 <p>Exposure to cutting edge technology (that we are using at the BBC!).</p>

@@ -12,9 +12,9 @@ const Contact = () => (
         <div className='contact about grid grid--two'>
           <div className='grid-item'>
             <h1>Contact me</h1>
-            <p>I'm available on all the major socials, well, <a href='https://www.facebook.com/CodeWithCraig'>Facebook</a> & <a href='https://twitter.com/CodeWithCraig'>Twitter</a>.</p>
-            <p>I'll also be publishing a number of video tutorials on Youtube, so go ahead and subscribe if you're feeling kind: <a href='https://www.youtube.com/CodeWithCraig'>https://www.youtube.com/CodeWithCraig</a>.</p>
-            <p>If you're not on any of the socials, but still want to get in touch, then drop me an email at <a href='mailto:code@craigharvie.me?subject=Hello!'>code@craigharvie.me</a></p>
+            <p>I am available on all the major socials, well, <a className='dark' href='https://www.facebook.com/CodeWithCraig'>Facebook</a> & <a className='dark' href='https://twitter.com/CodeWithCraig'>Twitter</a>.</p>
+            <p>I will also be publishing a number of video tutorials on Youtube, so go ahead and subscribe if you are feeling kind: <a className='dark' href='https://www.youtube.com/CodeWithCraig'>https://www.youtube.com/CodeWithCraig</a>.</p>
+            <p>If you are not on any of the socials, but still want to get in touch, then drop me an email at <a className='dark' href='mailto:code@craigharvie.me?subject=Hello!'>code@craigharvie.me</a></p>
           </div>
           <div className='about__image grid-item'>
             <div className='wow animated bounceInRight'>

@@ -43,8 +43,8 @@ a {
   color: white;
   font-weight: 700;
 
-  &--dark {
-    color: inherit;
+  &.dark {
+    color: rgba(0, 0, 0, 0.8);
   }
 }
 a:active,
