@@ -3,9 +3,13 @@ $_white: #ffffff;
 $_black: #000000;
 $_ant: #48bf84;
 $_fly: #358e62;
+$_bug: rgba(0, 0, 0, 0.8);
 
 
 /* COLOUR IMPLEMENTATIONS */
+
+/* BODY */
+$color-text: $_bug;
 
 /* HERO */
 $color-hero-background-green: $_ant;

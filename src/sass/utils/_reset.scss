@@ -42,6 +42,10 @@ a {
   -webkit-text-decoration-skip: objects;
   color: white;
   font-weight: 700;
+
+  &--dark {
+    color: inherit;
+  }
 }
 a:active,
 a:hover {

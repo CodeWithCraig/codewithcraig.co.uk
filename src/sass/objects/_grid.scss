@@ -2,6 +2,10 @@
 	@include display-flex;
 	@include flex-direction-column;
 
+  &--wrap {
+    @include flex-wrap-wrap;
+  }
+
 	&--reversed-on-mobile {
 		@include flex-direction-column-reverse;
 	}
@@ -22,6 +26,14 @@
   	.grid-item {
   		width: 33.333%;
   	}
+  }
+
+  &--fixed {
+    @include flex-direction-row;
+    
+    .grid-item {
+      width: 50%;
+    }
   }
 }
 
